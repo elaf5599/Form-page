@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+.droid-arabic-naskh{font-family: 'Droid Arabic Naskh', serif;}
+.parent{
+  background-color: #FCFCFC;
+
+  display: grid;
+  grid-template-columns: 39.5% 60.5%;
+  margin:0px;
+  height: 1400px
+
+}
+.child1{
+  background-color: #40B3BF;
+
+}
+.child2{
+  margin-top: 10%;
+  background-color: #FCFCFC;
+  display: grid;
+  grid-template-rows: 12% 100%;
+place-items: start center;
+
+}
+.Form{
+  width: 80%;
+  height: 90%;
+  border-radius: 6px;
+  background-color: #FFF;
+  border: none;
+  outline: none;
+}
+.input{
+  border: 0.2px solid #E5E7EB;
+  width: 90%;
+  height: 180%;
+  border-radius: 6px;
+  background-color: #FFF;
+
+}
+.image{
+  padding-right: 6%;
+}
+.err {
+  padding: 0px;
+  margin: 0px;
+  font-size: 13px;
+  color: #e64646;
+}
+.submit{
+  width: 40%;
+  height: auto;
+  border-radius: 6px;
+  text-align: center;
+  border: none;
+  outline: none;
+cursor: pointer;
+color: #FCFCFC;
+background-color:#40B3BF;
+margin: auto;
+padding: 6%;
+padding-left: 1%;
+padding-right: 1%;
+}
+.selected-flag{
+  padding-left: 2000px;
+}
+@media(max-width: 767px){
+
+}
+.gray{
+  background: #676767;
+}
